@@ -8,9 +8,9 @@
 #include <psp2kern/io/fcntl.h>
 #include <psp2kern/display.h>
 #include <psp2kern/power.h>
-#include <psp2kern/sblaimgr.h>
-#include <psp2kern/syscon.h>
-#include <psp2kern/uart.h>
+#include <psp2kern/kernel/aimgr.h>
+#include <psp2kern/kernel/syscon.h>
+#include <psp2kern/kernel/uart.h>
 #include <taihen.h>
 
 #define LOG(s, ...) \
